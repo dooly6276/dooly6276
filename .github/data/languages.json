@@ -1,0 +1,9 @@
+{
+ "repos": 54,
+ "langs": [
+  { "name": "TypeScript", "color": "#3178c6", "pct": 45 },
+  { "name": "Kotlin", "color": "#A97BFF", "pct": 22 },
+  { "name": "Python", "color": "#3572A5", "pct": 18 },
+  { "name": "Swift", "color": "#F05138", "pct": 15 }
+ ]
+}
