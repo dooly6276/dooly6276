@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="210" viewBox="0 0 840 210" role="img" aria-label="10,464 contributions, 108 day streak">
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;text-anchor:middle}
+.num{font-size:40px;font-weight:700;fill:#E6EDF3}
+.lab{font-size:14px;font-weight:600;fill:#E6EDF3}
+.sub{font-size:12px;fill:#9198A1}
+.cnt{opacity:0;animation:show 0.07s linear}
+.cnt.last{animation:show 0.07s linear forwards,glow 3.2s ease-in-out 1.38s infinite}
+@keyframes show{from,to{opacity:1}}
+@keyframes glow{0%,100%{fill:#E6EDF3}50%{fill:#3FB950}}
+.ring{stroke-dasharray:276.5;stroke-dashoffset:276.5;animation:draw 1.3s cubic-bezier(.3,.7,.2,1) .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.orbit{transform-origin:420px 92px;animation:spin 4.5s linear 1.5s infinite;opacity:0}
+@keyframes spin{0%{transform:rotate(-90deg);opacity:1}100%{transform:rotate(270deg);opacity:1}}
+.fl{transform-box:fill-box;transform-origin:50% 100%}
+.f1{animation:b1 .9s ease-in-out infinite}
+.f2{animation:b2 .7s ease-in-out infinite}
+.f3{animation:b3 .55s ease-in-out infinite}
+.f4{animation:b2 .45s ease-in-out infinite reverse}
+@keyframes b1{0%,100%{transform:scale(1,1) skewX(0)}25%{transform:scale(.9,1.14) skewX(-5deg)}50%{transform:scale(1.06,.93) skewX(3deg)}75%{transform:scale(.94,1.1) skewX(4deg)}}
+@keyframes b2{0%,100%{transform:scale(1,1) skewX(0)}30%{transform:scale(1.08,.9) skewX(5deg)}60%{transform:scale(.88,1.16) skewX(-4deg)}}
+@keyframes b3{0%,100%{transform:scale(1,1) translateY(0)}50%{transform:scale(.85,1.2) translateY(-1px)}}
+.glow{transform-box:fill-box;transform-origin:50% 50%;animation:glow2 1.2s ease-in-out infinite}
+@keyframes glow2{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:.95;transform:scale(1.18)}}
+.em{opacity:0}
+.e1{animation:r1 1.5s ease-out infinite}
+.e2{animation:r2 1.8s ease-out .5s infinite}
+.e3{animation:r3 1.3s ease-out .9s infinite}
+.e4{animation:r1 1.7s ease-out 1.2s infinite}
+@keyframes r1{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(-9px,-30px)}}
+@keyframes r2{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(8px,-34px)}}
+@keyframes r3{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(-3px,-26px)}}
+.pop{opacity:0;animation:pop .5s ease-out 1.1s forwards}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.seg{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:fill .5s cubic-bezier(.3,.8,.3,1) forwards}
+@keyframes fill{to{transform:scaleX(1)}}
+.li{font-size:12px;fill:#E6EDF3;text-anchor:start}
+.lp{font-size:12px;fill:#9198A1;text-anchor:end;font-variant-numeric:tabular-nums}
+.leg{opacity:0;animation:pop .5s ease-out forwards}
+.fade{opacity:0;animation:pop .6s ease-out .3s forwards}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cnt{opacity:0}.cnt.last,.pop,.fade,.orbit,.leg{opacity:1}.ring{stroke-dashoffset:0}.seg{transform:none}}
+</style>
+<line x1="280" y1="30" x2="280" y2="186" stroke="#30363D"/>
+<line x1="560" y1="30" x2="560" y2="186" stroke="#30363D"/>
+<g transform="">
+<text class="num cnt" x="140" y="112" style="animation-delay:0.00s">2,086</text><text class="num cnt" x="140" y="112" style="animation-delay:0.07s">3,874</text><text class="num cnt" x="140" y="112" style="animation-delay:0.14s">5,388</text><text class="num cnt" x="140" y="112" style="animation-delay:0.21s">6,651</text><text class="num cnt" x="140" y="112" style="animation-delay:0.28s">7,684</text><text class="num cnt" x="140" y="112" style="animation-delay:0.35s">8,512</text><text class="num cnt" x="140" y="112" style="animation-delay:0.42s">9,156</text><text class="num cnt" x="140" y="112" style="animation-delay:0.49s">9,640</text><text class="num cnt" x="140" y="112" style="animation-delay:0.56s">9,987</text><text class="num cnt" x="140" y="112" style="animation-delay:0.63s">10,220</text><text class="num cnt" x="140" y="112" style="animation-delay:0.70s">10,361</text><text class="num cnt" x="140" y="112" style="animation-delay:0.77s">10,433</text><text class="num cnt" x="140" y="112" style="animation-delay:0.84s">10,460</text><text class="num cnt last" x="140" y="112" style="animation-delay:0.91s">10,464</text>
+<text class="lab fade" x="140" y="160">Contributions</text>
+<text class="sub fade" x="140" y="180">in the last year</text>
+</g>
+<g transform="">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2EA043"/><stop offset="1" stop-color="#7EE787"/></linearGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#7EE787"/><stop offset="1" stop-color="#7EE787" stop-opacity="0"/></radialGradient></defs>
+<circle cx="420" cy="92" r="44" fill="none" stroke="#21262D" stroke-width="7"/>
+<circle class="ring" cx="420" cy="92" r="44" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" transform="rotate(-90 420 92)"/>
+<g class="orbit"><circle cx="464" cy="92" r="7" fill="url(#dot)"/></g>
+<defs><radialGradient id="fg"><stop offset="0" stop-color="#FB923C" stop-opacity=".9"/><stop offset=".6" stop-color="#F97316" stop-opacity=".25"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient></defs>
+<g transform="translate(420 51) scale(.86)">
+<ellipse class="glow" cx="0" cy="-16" rx="26" ry="28" fill="url(#fg)"/>
+<path class="fl f1" d="M0-44C7-33 18-26 18-13C18-3 10 3 0 3S-18-3-18-13C-18-22-11-27-9-34C-7-27-4-24-1-23C-2-31-4-37 0-44Z" fill="#EA580C"/>
+<path class="fl f2" d="M1-34C6-26 13-21 13-11C13-3 7 2 0 2S-13-3-13-11C-13-18-8-21-6-26C-5-21-3-18-1-18C-1-24-2-29 1-34Z" fill="#F97316"/>
+<path class="fl f3" d="M0-22C4-16 8-13 8-7C8-2 4 1 0 1S-8-2-8-7C-8-12-4-15-3-18C-2-15-1-14 0-13C0-17-1-19 0-22Z" fill="#FBBF24"/>
+<path class="fl f4" d="M0-11C2-8 4-6 4-3C4-1 2 0 0 0S-4-1-4-3C-4-6-2-8 0-11Z" fill="#FEF3C7"/>
+<circle class="em e1" cx="-3" cy="-36" r="2.2" fill="#FBBF24"/><circle class="em e2" cx="4" cy="-32" r="1.9" fill="#FB923C"/><circle class="em e3" cx="1" cy="-40" r="1.7" fill="#FDE68A"/><circle class="em e4" cx="-6" cy="-30" r="1.8" fill="#F97316"/>
+</g>
+<text class="num pop" x="420" y="103" style="font-size:32px">108</text>
+<text class="lab pop" x="420" y="160" style="fill:#3FB950">Day streak</text>
+</g>
+<g transform="">
+<g class="leg" style="animation-delay:0.40s"><text class="li" x="596" y="56">TypeScript</text><rect x="676" y="48" width="96" height="8" rx="4" fill="#21262D"/><rect class="seg" x="676" y="48" width="96.0" height="8" rx="4" fill="#3178c6" style="animation-delay:0.40s"/><text class="lp" x="820" y="56">45%</text></g><g class="leg" style="animation-delay:0.52s"><text class="li" x="596" y="80">Kotlin</text><rect x="676" y="72" width="96" height="8" rx="4" fill="#21262D"/><rect class="seg" x="676" y="72" width="46.9" height="8" rx="4" fill="#A97BFF" style="animation-delay:0.52s"/><text class="lp" x="820" y="80">22%</text></g><g class="leg" style="animation-delay:0.64s"><text class="li" x="596" y="104">Python</text><rect x="676" y="96" width="96" height="8" rx="4" fill="#21262D"/><rect class="seg" x="676" y="96" width="38.4" height="8" rx="4" fill="#3572A5" style="animation-delay:0.64s"/><text class="lp" x="820" y="104">18%</text></g><g class="leg" style="animation-delay:0.76s"><text class="li" x="596" y="128">Swift</text><rect x="676" y="120" width="96" height="8" rx="4" fill="#21262D"/><rect class="seg" x="676" y="120" width="32.0" height="8" rx="4" fill="#F05138" style="animation-delay:0.76s"/><text class="lp" x="820" y="128">15%</text></g>
+<text class="lab fade" x="700" y="160">Top languages</text>
+<text class="sub fade" x="700" y="180">54 repositories</text>
+</g>
+</svg>
